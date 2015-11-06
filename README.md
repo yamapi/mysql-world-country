@@ -1,9 +1,9 @@
 # Well Yo there!
 Use this MySQL to import a list of countries, counties, areas or cities into your database.
-- **country.sql**: 241 countries - field: english name, alpha, slug.
-- **country_county.sql**: 27 counties (only french counties) - field: french name, slug, country related ID.
-- **country_county_area.sql**: 96 areas (only french counties) - field: french name, slug, county related ID.
-- **country_county_area_city.sql**: 37182 cities (only french counties) - field: french name, slug, zipcode, county related ID, area related ID (because some cities doesn't have area relationship).
+- **country.sql**: 241 countries - field: name, alpha, slug.
+- **country_county.sql**: 27 counties (only french counties) - field: name, slug, country related ID.
+- **country_county_area.sql**: 96 areas (only french counties) - field: name, slug, county related ID.
+- **country_county_area_city.sql**: 37182 cities (only french counties) - field: name, slug, zipcode, county related ID, area related ID (because some cities doesn't have area relationship).
 
 # SQL
 You'll find a SQL file with INSERT statements and TABLE structure.
